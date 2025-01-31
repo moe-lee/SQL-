@@ -1,3 +1,5 @@
+-- ±ê Çù¾÷ ¿¬½À¿ë ÆíÁý.
+
 select * from employees;
 select (sum(salary)) from EMPLOYEES group by rollup(department_id, job_id);
 
